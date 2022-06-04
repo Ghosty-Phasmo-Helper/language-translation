@@ -1,0 +1,654 @@
+{   
+    "embedtext": {
+        "support": "Support",
+        "kofi": "KoFi",
+        "vote": "Vote",
+        "missing": "Something missing?",
+        "sendfor": "Send for",
+        "invite": "Invite Link",
+        "moreInfo": "Click for more Info",
+        "journal": "~The Journal"
+    },
+    "help": {
+        "title": "What I can do!",
+        "needed": "Needed argument",
+        "optional": "Optional argument",
+        "help": "This command here!.",
+        "info": "Some more information about me c:",
+        "ghost": "Information about a specific Ghost type.",
+        "equipment": "Information about specific Equipments.",
+        "evidence": "Information about specific Evidences.",
+        "item": "Information about specific Haunted Items.",
+        "map": "Information about a specific Map.",
+        "hero": "Do you need a Hero that goes into the House alone?.",
+        "botinfo": "Shows some technical stuff about me! c:",
+        "invite": "Support Server & invite link."
+    },
+    "botinfo": {
+        "botversion": "Version",
+        "msglatency": "Message Latency",
+        "apilatency": "API Latency",
+        "server": "Servers"
+    },
+    "info": {
+        "title": "What am I?",
+        "description": "I am a discord bot created by my Master <@421772263864401921>.\n> I am a Wiki and Utility bot related to the ghosty Steam-Game [Phasmophobia](https://store.steampowered.com/app/739630/Phasmophobia/)!\n> If you want to know what i can do try `/help`"
+    },
+    "invite": {
+        "title": "Some Links here c:",
+        "description": "Support is [here](https://discord.gg/X5CQaqq3xM)\n> Invite me [here](https://discord.com/api/oauth2/authorize?client_id=966502898047537222&permissions=8&scope=bot%20applications.commands)"
+    },
+    "hero": {
+        "title": "And the happy hero is..."
+    },
+    "items": {
+        "spawninfo": "There is a chance that a Hunted item will spawn. In that case only one Haunted item spawn per round\n> The Spawn location of the item is fixed. To find the spawn locations use the command `/map [name]`",
+        "headuses": "Uses",
+        "headtype": "Type",
+        "headspawninfo": "Spawn Info",
+        "headusage": "Usage",
+        "Haunted Mirror": {
+            "maxAmount": "Until Breaks",
+            "itemType": "Haunted",
+            "description": "A haunted mirror has a 1 in 6 chance per contract of being chosen as the cursed possession that will spawn, with one specific spawn location per map.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/7/7b/Cursed_Mirror.jpg/revision/latest/scale-to-width-down/350?cb=20220303041525",
+            "extra": "`1.` Using the haunted mirror will rapidly drain the sanity of the player at a rate of about 7.5%/s or 10%/s,[verify] including the animation of raising and lowering the mirror. If the user's sanity reaches zero, the mirror will break, and the ghost will start a cursed hunt from its current position."
+        },
+        "Music Box": {
+            "maxAmount": "1 Use",
+            "itemType": "Haunted",
+            "description": "The music box is a cursed possession that can be used to pinpoint the location of the ghost, though at considerable risk if one is careless with it.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/1/11/Music_Box_Model.jpg/revision/latest/scale-to-width-down/350?cb=20211210222255",
+            "extra": "`1.` The music box will make the ghost sing along while remaining invisible, broadcasting its location. If the music box is 5 meters or less from the ghost, it will manifest and start walking towards the box. If the ghost touches the player holding the box, walks for more than 5 seconds, or the box is dropped while the tune is playing, the music box will stop and the ghost will initiate a cursed hunt. If the player reaches 0% sanity or the ghost decides to hunt naturally (i.e., unrelated to the music box), a normal hunt will occur instead. The music box can be handheld or placed on the floor, the latter being the only safe way to discard the box without triggering a cursed hunt while it's playing. In all cases, the box will close once it stops playing."
+        },
+        "Ouija Board": {
+            "maxAmount": "Until Breaks",
+            "itemType": "Haunted",
+            "description": "The ghost can be asked questions to get definitive information at the cost of player sanity.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/2/2f/Ouija_Board_New.png/revision/latest/scale-to-width-down/350?cb=20211210172553",
+            "extra": "`1.` The Ouija Board can be activated by left clicking on it, or toggling it directly if holding the board. Once activated, the planchette will appear. This will also cancel the setup phase if it is ongoing.\n> `2.` To deactivate the Ouija Board, any nearby player must say 'Goodbye', which will make the planchette disappear.\n> `3.` If the question is recognised, the planchette will move to answer the question, and an EMF Level 2 reading will be generated around the Ouija Board. If the ghost has EMF Level 5 as evidence, there is a 25% chance for this to be the reading per question asked.\n> `4.` All Questions [here](https://phasmophobia.fandom.com/wiki/Ouija_Board#Questions)"
+        },
+        "Summoning Circle": {
+            "maxAmount": "1 Use",
+            "itemType": "Haunted",
+            "description": "The summoning circle is a cursed possession that is used to summon the ghost. This can be used to get a ghost photo reward.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/6/64/Circle.png/revision/latest/scale-to-width-down/350?cb=20211211042818",
+            "extra": "`1.` The summoning circle can be used by lighting all five red candles with a lighter. Each candle deducts 16% sanity for nearby players, leading to a total of 80% being deducted for all candles. Summoning circle candles can extinguish after a while or be blown out by the ghost, in the same way as regular candles.\n> `2.` Once all five candles are lit, the ghost is summoned and fully materialized, except a Shade, which has a chance[verify] of appearing as a transparent shadow. The summoned ghost stays motionless for about 5[verify] seconds, unable to kill players.\n> `3.` After this 'grace period', it immediately initiates a cursed hunt on the spot."
+        },
+        "Tarot Cards": {
+            "maxAmount": "10 Cards",
+            "itemType": "Haunted",
+            "description": "Tarot cards are a cursed possession that can trigger various random effects on both the player and nearby ghosts.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/a/a7/Tarot_Cards.png/revision/latest/scale-to-width-down/350?cb=20211210181436",
+            "extra": "`1.` The player should not draw a card during a hunt, since all cards will turn into The Fool.\n> `2.` Players should take a photo of the cards before using them, as once all of the cards are used, the deck will disappear and no photo can be taken.\n> `3.` List of Tarot Cards [here](https://phasmophobia.fandom.com/wiki/Tarot_Cards#Mechanics)"
+        },
+        "Voodoo Doll": {
+            "maxAmount": "10 Pins",
+            "itemType": "Haunted",
+            "description": "The voodoo doll is a cursed possession used to force the ghost to perform interactions.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/e/e2/Voodoo_Doll_New.jpg/revision/latest/scale-to-width-down/350?cb=20211210173413",
+            "extra": "`1.` The voodoo doll is best saved for after the ghost room has been found, and it is desired for the ghost to interact with evidence sources rather than having to risk waiting extended periods for it to do it on its own.\n> `2.` Interacting with the voodoo doll will cause one of the 10 pins stuck in the doll to be pushed into it at random. This will cause the ghost to perform an interaction, and will drop the user's sanity by 5%. These forced interactions can include evidence sources past EMF Level 5, such as making the ghost interact with Ghost Writing Books, create silhouettes in D.O.T.S. Projectors, and touch doors, windows, and light switches for Fingerprints."
+        }
+    },
+    "map": {
+        "interactive": "Interactive Map",
+        "headteamsize": "Team Size (Suggested)",
+        "headmapsize": "Map Size",
+        "headlayouttips": "Layout Tips",
+        "Bleasdale Farmhouse": {
+            "teamsize": "2",
+            "mapsize": "Small",
+            "description": "Bleasdale Farmhouse is a small map in Phasmophobia, and one of the two Farmhouse variants, alongside Grafton Farmhouse.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/6/6b/Bleasdale_Front_snowing.png/revision/latest/scale-to-width-down/350?cb=20211027064756",
+            "layoutTips": "`1.` There is no room named 'Storage' on this map. The downstairs room with the lockers is called 'Garage' and the upstairs room with the washer/dryer is called 'Utility'.\n> `2.` The room with the kitchen counter and dining table on the ground floor are considered two rooms (called 'Kitchen' and 'Dining Room' respectively).",
+            "mapPicture": "https://cloud.sillysoon.de/s/RqDtE6LPTGAppkB/download/Bleasdale%20Farmhouse.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/bleasdale"
+        },
+        "Edgefield Street House": {
+            "teamsize": "2",
+            "mapsize": "Small",
+            "description": "A two story, six-bedroom house with a basement, Edgefield Street House is a congested, claustrophobic environment. Despite this, there are plenty of hiding spaces during a hunt, as a room to hide in is always a few paces away.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/8/80/Edgefield_first_floor_hallway.png/revision/latest/scale-to-width-down/350?cb=20211027064848",
+            "layoutTips": "`1.` Both the basement hallway and the storage room separated by a door is considered a single 'Basement' room.\n> `2.` For every bedroom on the second floor, the game considers both the room with the bed and the attached bathroom, if any, to be a single room.",
+            "mapPicture": "https://cloud.sillysoon.de/s/MBej7fDWPxX6bNR/download/Edgefield%20Street%20House.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/edgefield"
+        },
+        "Grafton Farmhouse": {
+            "teamsize": "2",
+            "mapsize": "Small",
+            "description": "Grafton Farmhouse is a small map in Phasmophobia, and one of the two variants of the Farmhouse, alongside Bleasdale Farmhouse. This two-story farmhouse has a spacious ground floor with relatively large rooms, and a smaller top floor with smaller rooms and a storage room.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/7/7a/Grafton_foyer.png/revision/latest/scale-to-width-down/350?cb=20211027064908",
+            "layoutTips": "`1.` The Master Bedroom consists of the bedroom itself, the attached bathroom, and the closet. The game treats these three 'sub-rooms' as a single room.\n> `2.` The Twin Bedroom also covers the attached closet area.\n> `3.` The room named Storage is upstairs, adjacent to Upstairs Bedroom. The room behind the Kitchen is called Workshop.",
+            "mapPicture": "https://cloud.sillysoon.de/s/Hx9QKBQyMp8CPfj/download/Grafton%20Farmhouse.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/grafton"
+        },
+        "Ridgeview Road House": {
+            "teamsize": "2",
+            "mapsize": "Small",
+            "description": "Ridgeview Road House is a small map in Phasmophobia. It is a two-story, four-bedroom house with a garage and basement.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/d/dc/Ridgeview_living_room_0.6.png/revision/latest/scale-to-width-down/350?cb=20220413161518",
+            "layoutTips": "`1.` The 'Master Bedroom' consists of the bedroom itself, the attached bedroom, and the closet that can be accessed through said bathroom.\n> `2.` The small hallway leading to 'Master Bedroom' is considered part of 'Living Room'.\n> `3.` The Upstairs Hallway includes both the main hallway that turns a corner and leads to 'Boys Bedroom' and 'Bathroom' and the straight hallway partially separated by a wall that leads to 'Teen Boys Bedroom', 'Girls Bedroom', and 'Upstairs Toilet'.",
+            "mapPicture": "https://cloud.sillysoon.de/s/ZYMKFrqWXzKebEg/download/Ridgeview%20Road%20House.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/ridgeview"
+        },
+        "Tanglewood Street House": {
+            "teamsize": "1",
+            "mapsize": "Small",
+            "description": "Tanglewood Street House is a small map in Phasmophobia. It is a small single-story home with three bedrooms and two bathrooms.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/9/94/Tanglewood_Front_snowing.png/revision/latest/scale-to-width-down/350?cb=20211027065004",
+            "layoutTips": "`1.` The 'Master Bedroom' consists of the room of the bedroom itself, the attached bathroom, and the attached closet.\n> `2.` The 'Foyer' consists of both the hallway starting from the front door until the closet at the end of the hall leading into the living room, and the hallway parallel to it connecting 'Boy Bedroom' [sic], 'Nursery', and 'Main Bathroom'.",
+            "mapPicture": "https://cloud.sillysoon.de/s/TbgpX5QgW5jHLk8/download/Tanglewood%20Street%20House.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/tanglewood"
+        },
+        "Willow Street House": {
+            "teamsize": "2",
+            "mapsize": "Small",
+            "description": "Willow Street House is a map in Phasmophobia. It is a small, single-story home with two bedrooms and one bathroom, as well as a small garage and a basement. It is one of the smallest maps in the game, being only slightly larger than Tanglewood Street House.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/5/52/Willow-front-shot.png/revision/latest/scale-to-width-down/350?cb=20210619214906",
+            "layoutTips": "`1.` Willow Street House does not contain any closets or lockers. Instead, organic hiding spots are available.",
+            "mapPicture": "https://cloud.sillysoon.de/s/ix455W3j5CDWoLJ/download/Willow%20Street%20House.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/willow"
+        },
+        "Brownstone High School": {
+            "teamsize": "3",
+            "mapsize": "Medium",
+            "description": "Brownstone High School is a map in Phasmophobia. It is the first medium-sized map added to the game. Its square shape and general symmetry can make it intuitive to navigate, and its long hallways may make perpetual running almost impossible.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/7/75/High_School_Front_light_rain.png/revision/latest/scale-to-width-down/350?cb=20211027064829",
+            "layoutTips": "`1.` All hallways on both floors cannot be chosen as a ghost room, meaning Ghost Orbs do not need to be checked for in these hallways. The area called the Lobby can still be chosen as a ghost room.\n> `2.` The four Science Classrooms at the back of the building (two downstairs and two upstairs) each consist of two smaller sub-rooms: the classroom with chairs and the science lab with large metal tables.\n> `3.` There are four pairs of bathrooms with the same name on this map. The two bathrooms of each pair are located directly above/below one anther.",
+            "mapPicture": "https://cloud.sillysoon.de/s/Szqdaqjq3sQXnpG/download/Brownstone%20High%20School.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/brownstone"
+        },
+        "Maple Lodge Campsite": {
+            "teamsize": "3",
+            "mapsize": "Medium",
+            "description": "Maple Lodge Campsite is a map in Phasmophobia, being the game's third medium map and currently the only predominantly-outdoors location. The map is a spacious campsite with multiple tents, as well as a restroom-building, and a two-story cabin next to a lake.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/7/70/Maple_lodge_campfire.png/revision/latest/scale-to-width-down/350?cb=20211026103418",
+            "layoutTips": "`1.` There is a shortcut path from the entrance area to the campfire left of the Blue Tent.\n> `2.` Unlike regular doors, the tent flaps will not block line of sight with the ghost if they are not fully closed, even if the player holds them up so it completely hides their model.\n> `3.` The key to the cabin can be found under the mat near its door.",
+            "mapPicture": "https://cloud.sillysoon.de/s/wKb9M8B4a5Nw9eb/download/Maple%20Lodge%20Campsite.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/maplelodge"
+        },
+        "Prison": {
+            "teamsize": "3",
+            "mapsize": "Medium",
+            "description": "The Prison is a medium map in Phasmophobia, the second of its size type to be added to the game. The Prison bears a semi-dilapidated, spartan environment, with long corridors subdivided with metal bars that make encounters with ghosts unnerving.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/8/87/Prison_entrance.png/revision/latest/scale-to-width-down/350?cb=20211027064943",
+            "layoutTips": "`1.` The two upstairs rooms with the hospital beds (separated by a single door) are considered one room by the game called 'Infirmar'.\n> `2.` Ghost Orbs cannot spawn in the main hallway (including the staircase) or the second floor corridor, though the ghost may give other evidences in these corridors.\n> `3.` As with most larger maps, players may wish to use candles, glowsticks, and surplus flashlights to mark waypoints for navigation, and to bring Sanity Pills, taking care to use them wisely.",
+            "mapPicture": "https://cloud.sillysoon.de/s/kqkoXzbeecyDfRP/download/Prison.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/prison"
+        },
+        "Asylum": {
+            "teamsize": "4",
+            "mapsize": "Large",
+            "description": "Asylum is the first large map to be added and currently the only one in the game. Its labyrinthine architecture, paired with its endless hallways and corridors, make for an intimidating venture, and even the most experienced paranormal investigator may find themselves getting lost.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/6/67/Asylum_Reception.png/revision/latest/scale-to-width-down/350?cb=20211027064728",
+            "layoutTips": "`1.` All hallways and stairways cannot be chosen as a ghost room, meaning that players do not have to check for Ghost Orbs in these rooms.\n> `2.` Walking around with a lit candle and a lighter to relight it will nearly nullify sanity drain, allowing for long periods of searching without hunts, especially in singleplayer. Turning on hallway lights also reduces sanity drain, though this may make Ghost Orbs harder to see in some specific cases.",
+            "mapPicture": "https://cloud.sillysoon.de/s/foB9raBqi9FbDPM/download/Asylum.png",
+            "interactiveLink": "https://phasmophobia-matrix.com/maps/asylum"
+        }
+    },
+    "evidence": {
+        "headmechanics": "Mechanics",
+        "headtips": "Tips",
+        "D.O.T.S Projector": {
+            "quote": "D.O.T.S Projector is a type of Evidence in Phasmophobia, used to determine which Ghost is haunting a location. It is detected by placing a D.O.T.S Projector in close proximity of a Ghost, and allowing it to pass through it.",
+            "mechanics": "D.O.T.S can be obtained as evidence by placing a D.O.T.S Projector in a location, and waiting for a ghost to pass through it. Ghosts passing through D.O.T.S projections appear as faint humanoid silhouettes with considerable speeds, and can be seen near the ghost's location. Ghost silhouettes are also visible through video cameras, meaning they can be tracked simultaneously alongside Ghost Orbs. Dead players cannot see D.O.T.S. by any means.",
+            "tips": "`1.`D.O.T.S Projector evidence cannot be discovered if Ghost Writing has occurred, and vice versa. \n> `2.`If the onsite ghost is a Goryo, the silhouette will not be visible to the naked eye and can only be seen under two conditions:\n> ・There are no players near the Goryo\n> ・The D.O.T.S projection must be viewed with a video camera.\n> The best way to determine a Goryo's presence is by watching for D.O.T.S in person, then from the Computer.",
+            "imageURL": "https://static.wikia.nocookie.net/phasmophobia/images/f/ff/DOTS_Night_Vision.gif"
+        },
+        "Fingerprints": {
+            "quote": "Fingerprints (or handprints) are a type of evidence created by ghosts that can be used to determine the ghost type.",
+            "mechanics": "When a ghost with Fingerprints as its evidence interacts with certain surfaces, it will leave behind fingerprints, specifically the following:\n> ・Most types of doors (except exit doors)\n> ・Light switches\n> ・Windows\n> ・Keyboards\n> ・Cooler boxes\n> Each imprint of a fingerprint will disappear after 2 minutes. Each fingerprint, including repeat fingerprints on the same surface, can each be taken a picture of to obtain photo rewards.",
+            "tips": "`1.`Footprints, as opposed to fingerprints and handprints, do not count as evidence of Fingerprints.\n> `2.`he UV flashlight does not necessarily need to light up the fingerprints for them to be seen. As long as the UV flashlight is pointing directly at them, even through doors or walls (and within a certain range), they will be visible.\n> `3.`Fingerprints do not require ultraviolet light to be successfully registered for Photo Rewards, as long as the location of the print is within the camera frame. This may allow for fingerprints to be discovered accidentally with an errant photograph, or when ultraviolet light is not within reach.",
+            "imageURL": "https://static.wikia.nocookie.net/phasmophobia/images/4/4b/Handprint_six.png"
+        },
+        "Ghost Orb": {
+            "quote": "Small floating orbs of light, only visible through a camera.",
+            "mechanics": "When a map is loaded in, Ghost Orbs will spawn in the ghost room and float within the room. They look like very small orbs that glide across the screen, generally one at a time. They can be seen through the screen on a Video Camera with night vision, or through any available video feed with night vision.\n> Ghost Orbs will periodically shift position within the ghost room, forcing players to be more proactive in locating them.",
+            "tips": "`1.` Because of the periodical moving of Ghost Orbs, searching for them with a hand-held Video Camera is often better than relying on stationary cameras.\n> `2.`A player in the truck can view their teammates' head mounted cameras during the initial search for the ghost room to search for Ghost Orbs.\n> `3.` It is best to check for Ghost Orbs when the room's lights are off. When on, the brightness may hide the Orbs from sight.",
+            "imageURL": "https://static.wikia.nocookie.net/phasmophobia/images/9/9d/Ghost_Orb_video_feed_0.4.0.gif"
+        },
+        "EMF Level 5": {
+            "quote": "EMF Level 5 (or EMF 5) is a piece of evidence used to determine the type of ghost haunting the location.",
+            "mechanics": "When a ghost with EMF Level 5 as one of its evidences interacts with the environment, the EMF reading will have a 25% chance to be an EMF 5 emission instead of EMF 2 or EMF 3.",
+            "tips": "EMF level 5 can be obtained from the site activity monitor by observing an activity jump of 5 levels. As the site activity monitor is an approximate representation of the total EMF currently present in the map, seeing multiple jumps of 4 and 5 levels is a likely indication of EMF 5, especially if no players are currently inside the investigation area. Note that a Poltergeist multi-throw may also show a jump of 5 or more; either way, using an EMF reader is a more reliable way of verifying EMF 5 as a piece of evidence. An increase or decrease of 3 or 4 levels may also represent EMF level 5, but should not be used as an indicator for EMF 5, as these levels are more likely to represent an EMF 3 interaction, a ghost event, and/or multiple stacked interactions done in quick succession.",
+            "imageURL": "https://squadstate.com/wp-content/uploads/2020/11/EMF-level-5-Phasmophobia.jpg"
+        },
+        "Freezing Temperatures": {
+            "quote": "All ghosts make rooms cold, however, some have been known to make the temperature drop extremely fast.",
+            "mechanics": "The presence of a ghost in a room will cause the room's temperature to decrease. If the ghost has Freezing Temperatures as evidence, the minimum temperature of the room will be -10°C (14°F).\n> Temperatures lower than 0°C (32°F) will also cause players to release exhalations that are visible to both the player and other players. This can be used as evidence in lieu of having a thermometer active.",
+            "tips": "`1.` Temperatures only decrease when the ghost is within a room\n> `2.` Taking into account the fluctuations of the thermometer, if you see anything less than 3°C in Clear Skies weather, and 0°C in other types of weather, then Freezing Temperatures is one of the ghost's evidence.",
+            "imageURL": "http://www.gamewalkthrough-universe.com/Media/SiteImages/Phasmophobia/Equipment/Thermometer/Phasmo_Equip_Thermo_1.jpg"
+        },
+        "Ghost Writing": {
+            "quote": "Some Ghosts are able to write inside of books if given the proper tools to do so.",
+            "mechanics": "If Ghost Writing is a piece of evidence, if the ghost chooses to interact with the ghost writing book, the book will rise and frantic scribbling will be visible.",
+            "tips": "Taking a photograph of the Ghost Writing Book after it has been written in with a Photo Camera will count as an Interaction for photo evidence.",
+            "imageURL": "https://static.wikia.nocookie.net/phasmophobia/images/2/23/OpenBook_Patterns.gif"
+        },
+        "Spirit Box": {
+            "quote": "Only certain ghosts will talk through a Spirit Box when asked a question with your voice. Make sure the lights are off.",
+            "mechanics": "Lets you talk to the Ghost and he could respond.",
+            "tips": "It is recommended that the Spirit Box be tested as soon as the ghost room has been found to avoid the ghost starting a hunt near the player, as the player using the Spirit Box must be very close, in the dark, and possibly alone.",
+            "imageURL": "https://www.gamersdecide.com/sites/default/files/authors/u159169/phasmophobia_-_spirit_box.jpg"
+        }
+    },
+    "equipment": {
+        "headprice": "Price",
+        "headamount": "Amount",
+        "headtype": "Type",
+        "extraInfo": "Extra Info",
+        "Candle": {
+            "price": "$15",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "A Candle is a great way of keeping a room lit when the lights go out as it isn't dependent on electricity.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/1/12/Candle_lit.png/revision/latest/scale-to-width-down/350?cb=20211003102822",
+            "extra": "`1.` Placing candles where on the sides of tables, shelves, or other elevated objects will significantly improve their lighting, since candles produce weak visibility when placed on the ground.\n> `2.` Candles are not electrical , they are not affected by hunts and will continue to provide a steady light source. The downside is that players may not be able to tell when a hunt is occurring, especially if the ghost is too far away to be heard."
+        },
+        "Crucifix": {
+            "price": "$30",
+            "maxAmount": "2",
+            "itemType": "Optional",
+            "description": "A crucifix is used to stop Ghosts from entering their physical form to attack you. It's advised to place them near the Ghost.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/4/41/Crucifix_0.3.0_model.png/revision/latest/scale-to-width-down/350?cb=20211029143623",
+            "extra": "`1.` If a crucifix is within 3 meters of the ghost (or 5 meters if the ghost is a Demon), the hunt will fail to begin.\n> `2.` After the crucifix is used twice, the crucifix will be useless and have no further effect on the ghost.\n> `3.` The crucifix is useless when a hunt is already in progress and will not stop an active hunt or shield players from the ghost."
+        },
+        "Glowstick": {
+            "price": "$20",
+            "maxAmount": "2",
+            "itemType": "Optional",
+            "description": "A Glowstick can be used to help navigate in larger locations or used as an area UV Light.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/5/5a/Glowstick_v0.3.0.png/revision/latest/scale-to-width-down/350?cb=20210925093108",
+            "extra": "`1.` Glowsticks can be used to easily catch footprints from salt by dropping a lit glowstick next to a pile of salt; as soon as the ghost walks through it, any footprints it leaves nearby will automatically be visible.\n> `2.` The glowstick can be used as a marker for points of interest such as the ghost room and the fuse box, or for marking routes in the dark, especially as the glowstick is unaffected by electronic interference and cannot be turned off."
+        },
+        "Head Mounted Camera": {
+            "price": "$60",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "A Head Mounted Camera can be used to help teams track each other and to see Ghost Orbs",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/c/cb/Head_camera.png/revision/latest/scale-to-width-down/201?cb=20201007044801",
+            "extra": "`1.` Head Mounted Cameras do not attract the ghost during hunts and will not power the Raiju's ability.\n> `2.` They are also handy for monitoring players who have to be alone to get ghost responses, such as when using a Spirit Box, and are very useful for guiding players around larger maps, especially in the dark, since the player in the truck can see with night vision mode even if all the lights in the location are out, as well as having access to the Site Map."
+        },
+        "Lighter": {
+            "price": "$10",
+            "maxAmount": "2",
+            "itemType": "Optional",
+            "description": "A simple Lighter used for lighting Candles and Smudge Sticks.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/4/4b/Lighter_updated.png/revision/latest/scale-to-width-down/350?cb=20220112052334",
+            "extra": "`1.` Smudge sticks, summoning circle candles and regular candles can then be lit by aiming at the item and pressing the Secondary Use key [F]\n> `2.` Alternatively, if the lighter is in the inventory, smudge sticks or candles being held in the hand can be lit by pressing the Secondary Use key. The lighter does not have to be lit prior in this case."
+        },
+        "Motion Sensor": {
+            "price": "$100",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "A motion sensor is a sensor that can detect the most subtle changes in the atmosphere around it. This is linked live to the map in your Truck.",
+            "picture": "`https://static.wikia.nocookie.net/phasmophobia/images/7/78/Motion_Sensor_New.png/revision/latest/scale-to-width-down/350?cb=20210828153407",
+            "extra": "`1.` When a player, ghost, or **dead player** walks past the front of it, the motion sensor will illuminate the immediate area with a bright light. The bar on the Site Map inside the truck will also turn green temporarily, and an audible beep will play from the monitor."
+        },
+        "Parabolic Microphone": {
+            "price": "$50",
+            "maxAmount": "2",
+            "itemType": "Optional",
+            "description": "A Parabolic Microphone can detect sound through walls and at a great distance. This is a portable version of the sound sensor.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/c/ca/Newest_parabolic_microphone_model.png/revision/latest/scale-to-width-down/350?cb=20210830133804",
+            "extra": "`1.` It can detect sound through walls and at a great distance. It serves as a portable version of the sound sensor. Although infamously finicky, it is very handy to have around in the larger locations such as Brownstone High School and Asylum, although less effective in smaller ones."
+        },
+        "Salt Shaker": {
+            "price": "$15",
+            "maxAmount": "2",
+            "itemType": "Optional",
+            "description": "Salt is toxic to most kinds of Ghosts and will reveal their footsteps under a UV Light.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/c/c3/Salt_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051452",
+            "extra": "`1.` Ghosts will not step in salt during a hunt. If placed strategically, salt can be used to track where the ghost is walking, potentially to the players' advantage. Players cannot leave an imprint in salt or generate footprints.\n> `2.` Wraiths will step in salt piles like any other ghost and leave an imprint, but will not leave UV-visible footprints. When they step in a salt pile, the Wraith will become 'angered' and the level of ghost activity will increase for a short period of time."
+        },
+        "Sanity Pills": {
+            "price": "$20",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "Sanity Pills will increase your sanity level therefore they are vital for larger locations as these will allow you to be safer on a contract for longer periods.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/9/9a/New_Sanity_Pills.jpg/revision/latest/scale-to-width-down/350?cb=20210924183937",
+            "extra": "`1.` Consuming a sanity pill will replenish a certain amount of the player's sanity up to the maximum of 100%, depending on difficulty: \n> ・Amateur: 40%\n> ・Intermediate: 35%\n> ・Professional: 30%\n> ・Nightmare: 25%\n> `2.` Sanity pills cannot be consumed if the player's sanity is above 95%."
+        },
+        "Smudge Sticks": {
+            "price": "$15",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "Burning smudge sticks near a ghost will prevent it from attacking for a period of time.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/c/c7/SmudgeSticks_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051452",
+            "extra": "`1.` When the ghost is within 6 metres of a smudge stick while it is burning, ghost activity will be increased marginally.\n> `2.` Smudging will not prevent cursed hunts nor stop an already ongoing hunt, but doing this during a hunt it will prevent further attempts to initiate regular hunts for the specified duration starting from when the smudging effect is applied.\n> `3.` Smudge sticks can be used to repel the ghost during a hunt. When the effect is successfully applied, the ghost will wander aimlessly for 5 or 6 seconds"
+        },
+        "Sound Sensor": {
+            "price": "$80",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "Listens to even the most quiet sounds and vibrations in the air. Displayed as data in the van.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/6/66/Sound_sensor_0.6.png/revision/latest/scale-to-width-down/300?cb=20220408032759",
+            "extra": "`1.` A sound sensor can be placed on the ground. The detection area is highlighted as an orange circle on the Site Map in the Van. The screen will display the loudest sound detected, rather than the total volume of all the sounds. The value displayed will update every second.\n> `2.` The area covered by a sound sensor is fixed, but relative to the in-game map and not the building. Means bigger Map, bigger Radius."
+        },
+        "Strong Flashlight": {
+            "price": "$50",
+            "maxAmount": "4",
+            "itemType": "Optional",
+            "description": "An upgraded version of the flashlight. Designed to help you in large areas when the lights go out.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/e/e2/StrongFlashlight_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051451",
+            "extra": "`1.` Strong flashlights are functionally the same as regular flashlights, with the exception of an increased area of effect, and a white shade of light instead of yellow. They can be purchased from the shop for $50, starting at Level 3."
+        },
+        "Thermometer": {
+            "price": "$30",
+            "maxAmount": "3",
+            "itemType": "Optional",
+            "description": "A Thermometer will help you discover the location of a Ghost quicker by getting the temperature of the room.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/e/e4/Thermometer_Render.png/revision/latest/scale-to-width-down/350?cb=20210930094553",
+            "extra": "`1.` The reading shown will update every two seconds. By default, the reading will be in degrees Celcius (°C); this can be changed to Fahrenheit (°F) in the settings.\n> `2.` Temperatures readings at or below **9°C or 45°F** in Clear Skies weather, and below **6°C or 39.6°F** in other types of weather, is generally an indication that the ghost is located within the room."
+        },
+        "Tripod": {
+            "price": "$25",
+            "maxAmount": "5",
+            "itemType": "Optional",
+            "description": "A Tripod can be used to mount Video Cameras on.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/0/0b/Tripod.png/revision/latest/scale-to-width-down/350?cb=20201007044625",
+            "extra": "`1.` A tripod must be placed by dropping it, it cannot be placed via the Secondary Use key.\n> `2.` Tripods can be used to position video cameras in places where no suitable surface is available to place a video camera alone. The height is also suitable for observing any evidence of D.O.T.S. Projector."
+        },
+        "D.O.T.S. Projector": {
+            "price": "$65",
+            "maxAmount": "2",
+            "itemType": "Starter",
+            "description": "A laser light projector that detects paranormal movements, highlighting any entities within its range.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/2/25/Dots-proj.png/revision/latest/scale-to-width-down/350?cb=20210827031031",
+            "extra": "`1.` When a ghost interacts with a D.O.T.S Projector, if D.O.T.S Projector is one of its evidences, there is a chance that a mesh-like figure will appear running or crawling through the grid.\n> `2.` Dead players cannot see the ghost pass through the D.O.T.S. Projector."
+        },
+        "EMF Reader": {
+            "price": "$45",
+            "maxAmount": "2",
+            "itemType": "Starter",
+            "description": "The Electromagnetic Field Reader is a handheld device used to detect fluctuations in electromagnetic fields left behind by paranormal activity. It will beep with increasing volume depending on the amount of activity nearby.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/f/f2/EMFReader_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051211",
+            "extra": "`1.` f players are looking for evidence of EMF Level 5, players should use the reader every time the ghost touches an object or surface, and within the 20-second period that the EMF will be active for.\n> `2.` Use of motion sensors and consulting the site activity monitor can be used to be pinpoint locations where the ghost has been, and at what times it may give an active reading."
+        },
+        "Flashlight": {
+            "price": "$30",
+            "maxAmount": "4",
+            "itemType": "Starter",
+            "description": "The Flashlight is a basic hunting tool designed to help you when the lights go out.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/1/19/Flashlight_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051444",
+            "extra": "`1.` Extra flashlights (especially normal flashlights) can be dropped within dark areas of the map to provide uninterrupted illumination. This may be helpful if a ghost tampers with the lights and/or fuse box frequently."
+        },
+        "Ghost Writing Book": {
+            "price": "$40",
+            "maxAmount": "2",
+            "itemType": "Starter",
+            "description": "Also known as automatic writing, if you place this book near a Ghost it will allow certain Ghosts to write on it.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/2/2c/ClosedBook_Render.png/revision/latest/scale-to-width-down/350?cb=20210929050027",
+            "extra": "`1.` If placed within the vision of an active Video Camera, you can use the Video Feed in the truck to watch ghost writing books and see if ghost writing is occuring. While it may be much more difficult to see if there are any markings in the pages on camera, more observant players may check if the pen is missing from the book to determine if ghost writing has occured or not."
+        },
+        "Photo Camera": {
+            "price": "$40",
+            "maxAmount": "3",
+            "itemType": "Starter",
+            "description": "This is used to gather extra reward for taking photos of paranormal activity.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/0/03/Camera_v0.3.0.png/revision/latest/scale-to-width-down/350?cb=20210918071718",
+            "extra": "`1.` The first 10 pictures recorded in journal and that are labeled in black will give the player 'points' depending on the distance and category in the journal, added together as 'photo evidence'. Depending on the number of points gained, a maximum photo reward of $40 can be obtained at the end of a contract.\n> `2.` Photos captured are intentionally not synced over with other players; photos are taken and rendered individually on each client. This can cause confusion, as ghosts can show up for one person but not another."
+        },
+        "Spirit Box": {
+            "price": "$50",
+            "maxAmount": "2",
+            "itemType": "Starter",
+            "description": "Can capture radio frequencies that allow for communication with spirits.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/d/d2/SpiritBox_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051452",
+            "extra": "`1.` It is recommended that the Spirit Box be tested as soon as the ghost room has been found to avoid the ghost starting a hunt near the player, as the player using the Spirit Box must be very close, in the dark, and possibly alone.\n> `2.` The lights in the player's current room must be off. he player must either be in the same room as the ghost, or within 3 meters of it if not in the same room. Ghosts noted to respond only to 'people who are alone'\n> `3.` List of [Questions](https://phasmophobia.fandom.com/wiki/Spirit_Box#Types_of_Questions)"
+        },
+        "UV Flashlight": {
+            "price": "$35",
+            "maxAmount": "2",
+            "itemType": "Starter",
+            "description": "Able to spot even the most subtle paranormal prints and is one of the most vital pieces of equipment for tracking ghosts.",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/0/0b/UVLight_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051451",
+            "extra": "`1.` A UV Flashlight is not required to take a photo of fingerprints, only for players to see them; they may be discovered by errant pictures from the Photo Camera without having the use of a UV Flashlight at all.\n> `2.` UV Lights can be turned on and thrown around the house to light up the space, since the ghost can't turn them off.\n> `3.` As with the regular Flashlight, it will flicker during a Hunt."
+        },
+        "Video Camera": {
+            "price": "$50",
+            "maxAmount": "6",
+            "itemType": "Starter",
+            "description": "This DSLR Camera has been fine tuned to take videos of the paranormal. The camera has a live feed to your base of operations",
+            "picture": "https://static.wikia.nocookie.net/phasmophobia/images/4/40/Video_Camera_New.png/revision/latest/scale-to-width-down/350?cb=20210828144953",
+            "extra": "`1.` The video camera's night vision function is very useful when using a D.O.T.S Projector as the ghost's silhouette is harder to see without night vision.\n> `2.` The video camera can also be used to maintain surveillance on areas such as hallways, rooms, and the fuse box. This can allow for easy viewing of certain stationary evidence like Fingerprints, Ghost Writing, EMF Level 5, salt, or D.O.T.S Projector. However, the video feed becomes extremely distorted whenever the ghost manifests during a Ghost Event or a hunt, making observation very difficult."
+        }
+    },
+    "ghost": {
+        "headevidence": "Evidence",
+        "headstrengh": "Strengh",
+        "headweakness": "Weakness",
+        "headtrivia": "Trivia",
+        "Banshee": {
+            "quote": "The singing siren, known for attracting its victims through song. It has been known to single out its prey before making a killing blow.",
+            "evidence": [
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "**Banshee's** will weaken their target before striking.",
+            "weakness": "**Banshee's** can sometimes be heard screaming with a parabolic microphone.",
+            "trivia": "The Banshee is a female spirit in Irish folklore who heralds the death of a family member, usually by wailing or shrieking. A Banshee translates to 'woman of the fairy mound' or 'fairy woman' in its roots from Ireland. In Phasmophobia, Banshees can be either female or male, as they pull from the same name pool when a mission starts."
+        },
+        "Demon": {
+            "quote": "A Demon is one of the worst ghosts you can encounter. It has been known to attack without reason.",
+            "evidence": [
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "**Demons** will initiate hunts more often than other ghosts.",
+            "weakness": "**Demons** fear the Crucifix and will be less aggressive near one.",
+            "trivia": "In mythology, demons tend to have horrifying forms, often depicted with horns, tails, claws, or other inhuman appendages. The demons in Phasmophobia however, look human."
+        },
+        "Goryo": {
+            "quote": "When a Goryo passes through a DOTS projector, using a video camera is the only way to see it.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "A **Goryo** will usually only show itself on camera if there are no people nearby.",
+            "weakness": "They are are rarely seen far from their place of death.",
+            "trivia": "In Japanese folklore, a Goryō (御霊, honorable spirit) is a vengeful aristocratic ghost, particularly one that has been martyred. Their most prominent power involves causing natural catastrophes such as the destruction of crops or the summoning of typhoons or earthquakes. In Phasmophobia, Goryo do not reflect these powers nor their Japanese origin, and are American in both appearance and name due to sharing models and a naming pool with other ghost types."
+        },
+        "Hantu": {
+            "quote": "A Hantu is a rare ghost that thrives in the coldest climates. The cold seems to make them more aggressive and empowered.",
+            "evidence": [
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "Lower temperatures allow the **Hantu** to move at faster speeds.",
+            "weakness": "**Hantus** move slower in warmer areas.",
+            "trivia": "'Hantu' translates from the Indonesian/Malay languages to spirit or ghost, and generally refers to spirits of the dead but they can also be other invisible supernatural beeings such as Demons. In mythology Hantus vary widely and dont necessarely have to be evil."
+        },
+        "Jinn": {
+            "quote": "A Jinn is a territorial ghost that will attack when threatened. It has also been known to travel at significant speed.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "A **Jinn** will travel at a faster speed if its victim is far away.",
+            "weakness": "Turning off the location's power source will prevent the **Jinn** from using its ability.",
+            "trivia": "In mythology Jinn is a type of desert spirit/beeing created before mankind out of smokefree fire. They come in many shapes such as Serpents, Winged beeings, Giants, Insects or humanoid and they can also possess living humans. Jinni are not undead like ghosts and they live, eat, age and have children like humans although they have far longer lifespans. Like humans the Jinn where made to worship god but most of them chose not to. Out of the many types of Jinni, only the humanoid ones are capable of converting and becoming 'good'."
+        },
+        "Mare": {
+            "quote": "A Mare is the source of all nightmares, making it most powerful in the dark.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing"
+            ],
+            "strengh": "A **Mare** will have an increased chance to attack in the dark.",
+            "weakness": "Turning the lights on around the **Mare** will lower its chance to attack.",
+            "trivia": "The Mare is based on the Scandinavian and Germanic mythological creature 'Mara'. The Mare in mythology was not techically a spirit but rather a normal woman that transformed at night due to a curse applied by circumstances of her birth. This curse applied to a man would instead create a Werewolf. The Mara would enter peoples homes at night and then place themself on their victims chest making them paralyzed and giving them a feeling of suffocation. She was also responsible for nightmares and gave name to that phenomenon, (Night'mare') in english and ('Mar'dröm) in swedish."
+        },
+        "Myling": {
+            "quote": "A Myling is a very vocal and active ghost. They are rumoured to be quiet when hunting their prey.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing"
+            ],
+            "strengh": "A **Myling** is known to be quieter when hunting.",
+            "weakness": "**Mylings** more frequently make paranormal sounds.",
+            "trivia": "In Scandinavian folklore, Mylings (pronounced 'mew-leeng') are ghosts of unwanted children killed by their parents. Because they were not baptized, Mylings cannot rest and are forced to roam until they can persuade a living being to carry them or their body to hallowed grounds where they can rest peacefully. Failure to carry a Myling in holy soil will cause him to kill his potential benefactor in rage. In-game, the Myling's age and ghost model are randomly chosen, and the ghost does not have to be of a young age."
+        },
+        "Obake": {
+            "quote": "Obake are terrifying shape-shifters, capable of taking on many forms. They have been seen taking on humanoid shapes to attract their prey",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:videocamera:966801653728702554> Ghost Orbs"
+            ],
+            "strengh": "When interacting with the environment, an **Obake** will rarely leave a trace.",
+            "weakness": "Sometimes this ghost will shapeshift, leaving behind unique evidence.",
+            "trivia": "In Japanese folklore, an Obake (お化け), or sometimes 'Bakemono' (化け物), is said to be a type of Yokai. Literally, the terms mean a thing that changes, referring to a state of transformation or shapeshifting. These words are often translated as 'ghost', but primarily they refer to living things or supernatural beings who have taken on a temporary transformation, and these bakemono are distinct from the spirits of the dead. However, as a secondary usage, the term obake can be a synonym for Yurei, the ghost of a deceased human being."
+        },
+        "Oni": {
+            "quote": "Onis love to scare their victims as much as possible before attacking. They are often seen in their physical form, guarding their place of death.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:thermometer:966801653707706399> Freezing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "**Onis** are more active when people are nearby, and have been seen moving objects at great speed.",
+            "weakness": "**Onis** are very active, making them easier to find.",
+            "trivia": "In Japanese folklore, an Oni (鬼) is a kind of demonic ogre or troll, and can be seen as a type of Yokai. They are usually portrayed as hulking figures with horns on their heads, sharp claws and tusks, an odd skin tone such as red, green, or blue, and carrying large iron clubs. In Phasmophobia, Oni do not reflect these depictions or their Japanese origin, and simply uses possible form of American ghost in both appearance and name due to sharing models and a naming pool with other ghost types."
+        },
+        "Onryo": {
+            "quote": "The Onryo is often referred to as 'The Wrathful Spirit'. It steals souls from dying victims' bodies to seek revenge. This ghost has been known to fear any form of fire, and will do anything to be far from it.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "Extinguishing a flame can cause an **Onryo** to attack.",
+            "weakness": "When threatened, this ghost will be less likely to hunt.",
+            "trivia": "In Japanese traditional beliefs and literature, onryō (怨霊, literally 'vengeful spirit', sometimes rendered 'wrathful spirit') refers to a ghost (yūrei) believed to be capable of causing harm in the world of the living, injuring or killing enemies, or even causing natural disasters to exact vengeance to 're-address' the wrongs it received while alive, then taking their spirits from their dying bodies."
+        },
+        "Phantom": {
+            "quote": "A Phantom is a ghost that can possess the living, inducing fear into those around it. They are most commonly summoned from Ouija Boards.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "Looking at a **Phantom** will drop your sanity considerably faster.",
+            "weakness": "Taking a photo of the **Phantom** will make it temporarily disappear.",
+            "trivia": "Etymology-wise, Phantom pulls from as early as Greece with the word φᾰντᾰ́ζω, or phantasma, which stands for an apparition or a ghost. It could also be translated to something that is not real in general, like a dream or an illusion.[1] As such, phantoms in most tales typically elaborate more on the concept of being an illusion version of something that already exists. A Phantom could be said to be a dream ghost.Etymology-wise, Phantom pulls from as early as Greece with the word φᾰντᾰ́ζω, or phantasma, which stands for an apparition or a ghost. It could also be translated to something that is not real in general, like a dream or an illusion.[1] As such, phantoms in most tales typically elaborate more on the concept of being an illusion version of something that already exists. A Phantom could be said to be a dream ghost."
+        },
+        "Poltergeist": {
+            "quote": "One of the most famous ghosts, the Poltergeist. Known to manipulate objects around it to spread fear into its victims.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing"
+            ],
+            "strengh": "**Poltergeists** can throw multiple objects at once.",
+            "weakness": "With nothing to throw, **Poltergeists** become powerless.",
+            "trivia": "A poltergeist is a type of ghost known for causing physical disturbances, such as loud noises and objects being moved or destroyed. Although claims of supernaturally-caused disturbances date back to the 1st century, references to poltergeists specifically became more common in the early 1600s. The word poltergeist comes from the German language words poltern ('to make sound' and 'to rumble') and Geist ('ghost' and 'spirit'), and the term itself translates as 'noisy ghost', 'rumble-ghost' or a 'loud spirit'. A synonym coined by René Sudre is thorybism, from Greek thorybein ('to make noise or uproar; throw into confusion')."
+        },
+        "Raiju": {
+            "quote": "A Raiju is a demon that thrives on electrical current. While generally calm, they can become agitated when overwhelmed with power.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "A **Raiju** can siphon power from nearby electrical devices, making it move faster.",
+            "weakness": "**Raiju** are constantly disrupting electronic equipment when attacking, making it easier to track.",
+            "trivia": "Raijū (雷獣, 'thunder animal' or 'thunder beast') is a legendary creature from Japanese mythology. Its body is composed of lightning and with the form of a white and blue wolf or dog (or even a wolf or dog wrapped in lightning) being the most common, although it can be represented with many other creatures like mammals, insects, fish, dragons etc. It may also fly about as a ball of lightning. Its cry sounds like thunder. Raiju is the companion of Raijin, the god of lightning. While the beast is generally calm and harmless, during thunderstorms it becomes agitated, and leaps about in trees and buildings.Another of Raiju's peculiar behaviors is sleeping in human navels. This prompts the Raijin to shoot lightning arrows at Raiju to wake the creature up, and thus harms the person in whose belly the demon is resting. Superstitious people therefore often sleep on their stomachs during bad weather."
+        },
+        "Revenant": {
+            "quote": "A Revenant is a violent ghost that will attack indiscriminately. Their speed can be deceiving, as they are slow while dormant; however, as soon as they hunt they can move incredibly fast.",
+            "evidence": [
+                "<:dotsprojector:966801654521413722> D.O.T.S",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "A **Revenant** will travel at a significantly faster speed when hunting their prey.",
+            "weakness": "Hiding from the **Revenant** will cause it to move very slowly.",
+            "trivia": "In folklore, a revenant is an animated corpse that is believed to have revived from death to haunt the living. The word revenant is derived from the Old French word, revenant, the 'returning' (see also the related French verb revenir, meaning 'to come back'). Revenants are part of the legend of various cultures, including Old Irish Celtic and Norse mythology, and stories of supposed revenant visitations were documented by English historians in the Middle Ages."
+        },
+        "Shade": {
+            "quote": "A Shade is known to be very shy. There is evidence to suggest that a Shade will stop all paranormal activity if there are multiple people nearby.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "**Shades** are much harder to find.",
+            "weakness": "The ghost will not enter a hunt if there are multiple people nearby.",
+            "trivia": "Shade (lat. umbra, gr. σκιά) - in the mythology of many peoples, the ghost or spirit of the dead human, who is in the afterlife."
+        },
+        "Spirit": {
+            "quote": "Spirits are very common ghosts. They are very powerful, but passive, only attacking when they need to. They defend their place of death to the utmost degree, killing anyone that is caught overstaying their welcome.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing"
+            ],
+            "strengh": "No quote was found in the Journal for their strength, since they do not have one.",
+            "weakness": "A **Spirit** can be temporarily stopped by burning Smudge Sticks near them.",
+            "trivia": "Middle English: from Anglo-Norman French, from Latin spiritus 'breath, spirit', from spirare 'breathe'."
+        },
+        "Mimic": {
+            "quote": "The Mimic is an elusive, mysterious, copycat ghost that mirrors traits and behaviours from others, including other ghost types.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:uvflashlight:966801654588530738> Fingerprints",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "We're unsure what this ghost is capable of. Be careful.",
+            "weakness": "Several reports have noted ghost orb sightings near mimics.",
+            "trivia": "The word has origin from the Ancient Greek word 'mīmikós' (belonging to mimes), from 'mîmos' (actor)."
+        },
+        "Twins": {
+            "quote": "These ghosts have been reported to mimic each other's actions. They alternate their attacks to confuse their prey.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "Either **Twin** can be angered and initiate an attack on their prey.",
+            "weakness": "**The Twins** will often interact with the environment at the same time.",
+            "trivia": "Late Old English twinn 'double', from twi- 'two'; related to Old Norse tvinnr . Current verb senses date from late Middle English."
+        },
+        "Wraith": {
+            "quote": "Wraiths are one of the most dangerous ghosts you will find. It is also the only known ghost that has the ability of flight and has sometimes been known to travel through walls.",
+            "evidence": [
+                "<:emfreader:966801653774843965> EMF 5",
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "**Wraiths** almost never touch the ground, meaning it can't be tracked by footsteps.",
+            "weakness": "**Wraiths** have a toxic reaction to Salt.",
+            "trivia": "Synonym for Ghost. The word has no certain etymology."
+        },
+        "Yokai": {
+            "quote": "Yokai are common ghosts that are attracted to human voices. They can usually be found haunting family homes.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "Talking near a **Yokai** will anger it, increasing the chance of an attack.",
+            "weakness": "When hunting, a **Yokai** can only hear voices close to it.",
+            "trivia": "Yōkai (妖怪, 'strange apparition') are a class of supernatural entities and spirits in Japanese folklore. Yōkai often have animal features, but may also appear humanoid in appearance. Some yōkai resemble inanimate objects, while others have no discernible shape. Yōkai are typically described as having spiritual or supernatural abilities, with shapeshifting being the most common trait associated with them."
+        },
+        "Yurei": {
+            "quote": "A Yurei is a ghost that has returned to the physical world, usually for the purpose of revenge or hatred.",
+            "evidence": [
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:thermometer:966801653707706399> Freezing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "**Yureis** have been known to have a stronger effect on people (sic) sanity.",
+            "weakness": "Smudging the **Yurei's** place of death will trap it temporarily, reducing how much it wanders.",
+            "trivia": "Yūrei are Japanese folklore ghosts known for haunting a specific location at a specific time (generally corresponding to their time of death). They are famous for having an appearance which strikes fear into their foes, often resulting in self-mutilation or suicide."
+        }
+    }
+}
