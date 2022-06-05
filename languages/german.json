@@ -1,28 +1,29 @@
 {   
     "embedtext": {
-        "support": "",
-        "kofi": "",
-        "vote": "",
-        "missing": "",
-        "sendfor": "",
-        "invite": "",
-        "moreInfo": "",
-        "journal": ""
+        "support": "Support",
+        "kofi": "KoFi",
+        "vote": "Voten",
+        "missing": "Vermisst du etwas?",
+        "sendfor": "Gesendet für",
+        "invite": "Einladung",
+        "moreInfo": "Für mehr Info's",
+        "journal": "~Das Journal",
+        "translate": ""
     },
     "help": {
-        "title": "",
-        "needed": "",
-        "optional": "",
-        "help": "",
-        "info": "",
-        "ghost": "",
-        "equipment": "",
-        "evidence": "",
-        "item": "",
-        "map": "",
-        "hero": "",
-        "botinfo": "",
-        "invite": ""
+        "title": "Was ich machen kann!",
+        "needed": "benötigte Argumente",
+        "optional": "optionale Argumente",
+        "help": "Dieser Command hier.",
+        "info": "Noch mehr Informationen über mich c:",
+        "ghost": "Informationen über ein bestimmten Geistertypen.",
+        "equipment": "Informationen über ein bestimmtes Equipment.",
+        "evidence": "Informationen über einen bestimmten Beweis.",
+        "item": "Informationen über ein bestimmtes Item.",
+        "map": "Informationen über eine bestimmte Map.",
+        "hero": "Du brauchst einen Helden der alleine in das haus geht?",
+        "botinfo": "Technische Eckdaten über mich",
+        "invite": "Support Server & Bot-Invite Link"
     },
     "botinfo": {
         "botversion": "",
@@ -40,6 +41,11 @@
     },
     "hero": {
         "title": ""
+    },
+    "lang": {
+        "title": "",
+        "description": "",
+        "thanks": ""
     },
     "items": {
         "spawninfo": "",

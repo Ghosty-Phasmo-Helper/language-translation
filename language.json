@@ -7,7 +7,8 @@
         "sendfor": "",
         "invite": "",
         "moreInfo": "",
-        "journal": ""
+        "journal": "",
+        "translate": ""
     },
     "help": {
         "title": "",
@@ -40,6 +41,11 @@
     },
     "hero": {
         "title": ""
+    },
+    "lang": {
+        "title": "",
+        "description": "",
+        "thanks": ""
     },
     "items": {
         "spawninfo": "",

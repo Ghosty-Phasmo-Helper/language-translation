@@ -7,7 +7,8 @@
         "sendfor": "Send for",
         "invite": "Invite Link",
         "moreInfo": "Click for more Info",
-        "journal": "~The Journal"
+        "journal": "~The Journal",
+        "translate": "Help us translating!"
     },
     "help": {
         "title": "What I can do!",
@@ -40,6 +41,11 @@
     },
     "hero": {
         "title": "And the happy hero is..."
+    },
+    "lang": {
+        "title": "Language",
+        "description": "Successfully changed Language to",
+        "thanks": "Thanks to all Translators! the list of all translators is [here]()"
     },
     "items": {
         "spawninfo": "There is a chance that a Hunted item will spawn. In that case only one Haunted item spawn per round\n> The Spawn location of the item is fixed. To find the spawn locations use the command `/map [name]`",
