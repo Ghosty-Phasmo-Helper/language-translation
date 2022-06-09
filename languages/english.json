@@ -23,7 +23,8 @@
         "map": "Information about a specific Map.",
         "hero": "Do you need a Hero that goes into the House alone?.",
         "botinfo": "Shows some technical stuff about me! c:",
-        "invite": "Support Server & invite link."
+        "invite": "Support Server & invite link.",
+        "language": "Change the Servers Bot language."
     },
     "botinfo": {
         "botversion": "Version",

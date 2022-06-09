@@ -23,7 +23,8 @@
         "map": "",
         "hero": "",
         "botinfo": "",
-        "invite": ""
+        "invite": "",
+        "language": ""
     },
     "botinfo": {
         "botversion": "",

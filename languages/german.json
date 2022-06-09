@@ -23,7 +23,8 @@
         "map": "Informationen über eine bestimmte Map.",
         "hero": "Du brauchst einen Helden der alleine in das haus geht?",
         "botinfo": "Technische Eckdaten über mich",
-        "invite": "Support Server & Bot-Invite Link"
+        "invite": "Support Server & Bot-Invite Link",
+        "language": ""
     },
     "botinfo": {
         "botversion": "",

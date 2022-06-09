@@ -23,7 +23,8 @@
         "map": "Información sobre un mapa específico.",
         "hero": "¿Necesitas que un héroe entre a la casa solo?",
         "botinfo": "¡Muestra algunas cosas técnicas sobre mí! c:",
-        "invite": "Servidor de ayuda y enlace de invitación."
+        "invite": "Servidor de ayuda y enlace de invitación.",
+        "language": ""
     },
     "botinfo": {
         "botversion": "",
