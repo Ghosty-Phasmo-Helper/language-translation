@@ -656,6 +656,39 @@
             "strengh": "",
             "weakness": "",
             "trivia": ""
+        },
+        "Deogen": {
+            "quote": "",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
+        },
+        "Moroi": {
+            "quote": "",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
+        },
+        "Thaye": {
+            "quote": "",
+            "evidence": [
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
         }
     }
 }

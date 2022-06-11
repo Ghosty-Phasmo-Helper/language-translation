@@ -278,7 +278,7 @@
         },
         "Lighter": {
             "price": "$10",
-            "maxAmount": "2",
+            "maxAmount": "4",
             "itemType": "Optional",
             "description": "A simple Lighter used for lighting Candles and Smudge Sticks.",
             "picture": "https://static.wikia.nocookie.net/phasmophobia/images/4/4b/Lighter_updated.png/revision/latest/scale-to-width-down/350?cb=20220112052334",
@@ -302,7 +302,7 @@
         },
         "Salt Shaker": {
             "price": "$15",
-            "maxAmount": "2",
+            "maxAmount": "3",
             "itemType": "Optional",
             "description": "Salt is toxic to most kinds of Ghosts and will reveal their footsteps under a UV Light.",
             "picture": "https://static.wikia.nocookie.net/phasmophobia/images/c/c3/Salt_Render.png/revision/latest/scale-to-width-down/350?cb=20210929051452",
@@ -656,6 +656,39 @@
             "strengh": "**Yureis** have been known to have a stronger effect on people (sic) sanity.",
             "weakness": "Smudging the **Yurei's** place of death will trap it temporarily, reducing how much it wanders.",
             "trivia": "Yūrei are Japanese folklore ghosts known for haunting a specific location at a specific time (generally corresponding to their time of death). They are famous for having an appearance which strikes fear into their foes, often resulting in self-mutilation or suicide."
+        },
+        "Deogen": {
+            "quote": "Sometimes surrounded by an endless fog, Deogen have been eluding ghost hunters for years\nThese ghosts have been reported to find even the most hidden prey, before stalking them into exhaustion.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "Deogen constantly sense the living. You can run but can't hide.",
+            "weakness": "Deogen require a lot of energy to form and will move very slowly.",
+            "trivia": "~Unknown (WIP)"
+        },
+        "Moroi": {
+            "quote": "**Moroi** have risen from the grave to drain energy from the living. They have been known to place curses on their victims, curable only by antidotes or moving very far away.",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "The weaker their victims, the stronger the Moroi becomes",
+            "weakness": "Moroi suffer from hyperosmia, weakening them for long periods",
+            "trivia": "~Unknown (WIP)"
+        },
+        "Thaye": {
+            "quote": "Thaye have been known to rapidly age over time, even in the afterlife. From what we've learned, they seem to deterioate faster while within the presence of living.",
+            "evidence": [
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "Upon entering the location, Thaye will become active, defensive and agile",
+            "weakness": "Thaye will weaken over time, making them weaker, slower and less aggressive",
+            "trivia": "~Unknown (WIP)"
         }
     }
 }

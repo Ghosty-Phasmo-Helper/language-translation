@@ -8,45 +8,45 @@
         "invite": "Einladung",
         "moreInfo": "Für mehr Info's",
         "journal": "~Das Journal",
-        "translate": ""
+        "translate": "Helfen Sie uns beim Übersetzen!"
     },
     "help": {
         "title": "Was ich machen kann!",
-        "needed": "benötigte Argumente",
-        "optional": "optionale Argumente",
-        "help": "Dieser Command hier.",
+        "needed": "Benötigte Argumente",
+        "optional": "Optionale Argumente",
+        "help": "Dieser Befehl hier!",
         "info": "Noch mehr Informationen über mich c:",
-        "ghost": "Informationen über ein bestimmten Geistertypen.",
-        "equipment": "Informationen über ein bestimmtes Equipment.",
-        "evidence": "Informationen über einen bestimmten Beweis.",
-        "item": "Informationen über ein bestimmtes Item.",
-        "map": "Informationen über eine bestimmte Map.",
-        "hero": "Du brauchst einen Helden der alleine in das haus geht?",
-        "botinfo": "Technische Eckdaten über mich",
-        "invite": "Support Server & Bot-Invite Link",
-        "language": ""
+        "ghost": "Informationen über einen bestimmten Ghost-Typ.",
+        "equipment": "Informationen zu bestimmten Geräten.",
+        "evidence": "Informationen zu bestimmten Beweisen.",
+        "item": "Informationen über bestimmte Haunted Items.",
+        "map": "Informationen zu einer bestimmten Karte.",
+        "hero": "Brauchen Sie einen Helden, der alleine ins Haus geht?.",
+        "botinfo": "Zeigt einige technische Dinge über mich! c:",
+        "invite": "Support-Server & Einladungslink.",
+        "language": "Sprache des Bots ändern."
     },
     "botinfo": {
-        "botversion": "",
-        "msglatency": "",
-        "apilatency": "",
-        "server": ""
+        "botversion": "Version",
+        "msglatency": "Nachrichtenlatenz",
+        "apilatency": "API-Latenz",
+        "server": "Server"
     },
     "info": {
-        "title": "",
-        "description": ""
+        "title": "Was bin ich?",
+        "description": "Ich bin ein Discord-Bot, der von meinem Meister <@421772263864401921> erstellt wurde.\n> Ich bin ein Wiki- und Utility-Bot, der mit dem gespenstischen Steam-Game [Phasmophobia](https://store.steampowered.com/app/739630/Phasmophobia/) zu tun hat!\n> Wenn du wissen willst, was ich tun kann, versuche `/help`"
     },
     "invite": {
-        "title": "",
-        "description": ""
+        "title": "Einige Links hier c:",
+        "description": "Support ist [hier](https://discord.gg/X5CQaqq3xM)\n> Laden mich [hier](https://discord.com/api/oauth2/authorize?client_id=966502898047537222&permissions=8&scope= bot%20applications.commands) ein"
     },
     "hero": {
-        "title": ""
+        "title": "Und der glückliche Held ist..."
     },
     "lang": {
-        "title": "",
-        "description": "",
-        "thanks": ""
+        "title": "Sprache",
+        "description": "Sprache erfolgreich geändert auf",
+        "thanks": "Danke an alle Übersetzer! Hilf uns weiterhin [hier](https://github.com/Ghosty-Phasmo-Helper/language-translation)"
     },
     "items": {
         "spawninfo": "",
@@ -652,6 +652,39 @@
                 "",
                 "",
                 ""
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
+        },
+        "Deogen": {
+            "quote": "",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
+        },
+        "Moroi": {
+            "quote": "",
+            "evidence": [
+                "<:spiritbox:966801654332657754> Spiritbox",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:thermometer:966801653707706399> Freezing"
+            ],
+            "strengh": "",
+            "weakness": "",
+            "trivia": ""
+        },
+        "Thaye": {
+            "quote": "",
+            "evidence": [
+                "<:videocamera:966801653728702554> Ghost Orbs",
+                "<:ghostwritingbook:966801653867118602> Ghost Writing",
+                "<:dotsprojector:966801654521413722> D.O.T.S"
             ],
             "strengh": "",
             "weakness": "",
