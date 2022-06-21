@@ -16,8 +16,5 @@
 
 # How to help
 
-> Download the file you want to edit, or create an entirely new one from an [example](https://github.com/Ghosty-Phasmo-Helper/language-translation/blob/main/example.json) and create a **Pull Request**.
+> Download the file you want to edit, or create an entirely new one from an [example](https://github.com/Ghosty-Phasmo-Helper/language-translation/blob/main/example.json) and send it to the [Discord](https://discord.gg/ncKBHm4CM7 or DM me SillySoon#2207.
 > Make sure to join the [Discord](https://discord.gg/ncKBHm4CM7), so you can get your "Translator" Role when you helped at this project a lot!
-
-> You found some Typos or even a bad translation? Go ahead and create a pull request!
-
